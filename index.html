@@ -2,316 +2,328 @@
 <html lang="ru">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title lang="en">Mountain</title>
- <link rel="stylesheet" href="vendor/fonts/fonts.css">
- <link rel="stylesheet" href="vendor/normalize.css">
- <link rel="stylesheet" href="pages/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title lang="en">Mountain</title>
+  <link rel="stylesheet" href="vendor/fonts/fonts.css">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="pages/style.css">
 </head>
 
 <body class="page">
 
- <!-- Header -->
+  <!-- Header -->
 
- <header class="header">
-  <div class="container">
-   <svg width="99" height="21" fill="none">
-    <path
-     d="M.73.56h4.2l2.4 12.26L9.87.56h4.06L14.29 20H11.4L11.1 6.8 8.6 20H6.15L3.58 6.73 3.3 20H.4L.72.56zm21.87 19.7c-2.06 0-3.54-.53-4.42-1.6-.88-1.1-1.32-2.68-1.32-4.78V6.63c0-2.1.44-3.67 1.32-4.73C19.06.85 20.54.32 22.6.32c2.05 0 3.51.54 4.4 1.6.89 1.06 1.34 2.63 1.34 4.71v7.27c0 2.08-.45 3.67-1.35 4.76-.88 1.07-2.34 1.6-4.39 1.6zm0-2.83c.67 0 1.12-.22 1.34-.67.24-.46.36-1.1.36-1.9V5.67c0-.8-.12-1.41-.36-1.85-.22-.44-.67-.67-1.34-.67s-1.13.23-1.37.67a4.1 4.1 0 00-.33 1.85v9.2c0 .81.1 1.44.33 1.89.23.45.68.67 1.37.67zm13.85 2.83a6.7 6.7 0 01-3.38-.72c-.82-.5-1.4-1.2-1.73-2.13-.34-.93-.5-2.11-.5-3.55V.56h3.88v13.85c0 .93.12 1.65.34 2.18.22.53.69.8 1.4.8.7 0 1.16-.27 1.38-.8.23-.53.34-1.25.34-2.18V.56h3.91v13.3c0 1.44-.17 2.62-.5 3.55a4 4 0 01-1.75 2.13 6.7 6.7 0 01-3.39.72zm8.4-19.7h2.76l4.32 10.1V.56h3.3V20h-2.67L48.24 9.25V20h-3.39V.56zm15.12 2.93h-3V.56h9.93v2.93h-2.95V20h-3.98V3.49zM70.77.56h4.4L78.9 20h-3.65l-.72-4.27h-3.07L70.72 20H67L70.77.56zm3.39 12.72l-1.18-7.82-1.15 7.82h2.33zM80.93.56h3.93V20h-3.93V.56zm6.89 0h2.76l4.32 10.1V.56h3.28V20h-2.66L91.2 9.25V20h-3.38V.56z"
-     fill="#FCFCFC" /></svg>
-   <nav class="menu">
-    <ul class="menu__lists">
-     <li class="menu_item"><a href="" class="menu__link">О нас</a></li>
-     <li class="menu_item"><a href="" class="menu__link">Туры</a></li>
-     <li class="menu_item"><a href="" class="menu__link">Подбор тура</a></li>
-     <li class="menu_item"><a href="" class="menu__link">Блог</a></li>
-     <li class="menu_item"><a href="" class="menu__link">Контакты</a></li>
-    </ul>
-    <div class="header__tools">
-     <a href="tel:+7(800)777-33-25" class="header__tel-link">8 (800) 777-33-25</a>
-     <a href="" class="header__link"><img src="./images/svg/search.svg" alt="" class="header__search"></a>
-     <a href="" class="header__link"><img src="./images/svg/profile.svg" alt="" class="header__profile"></a>
+  <header class="header">
+    <div class="container">
+
+      <nav class="menu">
+        <div class="menu__wrapper">
+          <svg class="logo logo_menu" width="99" height="21" fill="none">
+            <path
+              d="M.73.56h4.2l2.4 12.26L9.87.56h4.06L14.29 20H11.4L11.1 6.8 8.6 20H6.15L3.58 6.73 3.3 20H.4L.72.56zm21.87 19.7c-2.06 0-3.54-.53-4.42-1.6-.88-1.1-1.32-2.68-1.32-4.78V6.63c0-2.1.44-3.67 1.32-4.73C19.06.85 20.54.32 22.6.32c2.05 0 3.51.54 4.4 1.6.89 1.06 1.34 2.63 1.34 4.71v7.27c0 2.08-.45 3.67-1.35 4.76-.88 1.07-2.34 1.6-4.39 1.6zm0-2.83c.67 0 1.12-.22 1.34-.67.24-.46.36-1.1.36-1.9V5.67c0-.8-.12-1.41-.36-1.85-.22-.44-.67-.67-1.34-.67s-1.13.23-1.37.67a4.1 4.1 0 00-.33 1.85v9.2c0 .81.1 1.44.33 1.89.23.45.68.67 1.37.67zm13.85 2.83a6.7 6.7 0 01-3.38-.72c-.82-.5-1.4-1.2-1.73-2.13-.34-.93-.5-2.11-.5-3.55V.56h3.88v13.85c0 .93.12 1.65.34 2.18.22.53.69.8 1.4.8.7 0 1.16-.27 1.38-.8.23-.53.34-1.25.34-2.18V.56h3.91v13.3c0 1.44-.17 2.62-.5 3.55a4 4 0 01-1.75 2.13 6.7 6.7 0 01-3.39.72zm8.4-19.7h2.76l4.32 10.1V.56h3.3V20h-2.67L48.24 9.25V20h-3.39V.56zm15.12 2.93h-3V.56h9.93v2.93h-2.95V20h-3.98V3.49zM70.77.56h4.4L78.9 20h-3.65l-.72-4.27h-3.07L70.72 20H67L70.77.56zm3.39 12.72l-1.18-7.82-1.15 7.82h2.33zM80.93.56h3.93V20h-3.93V.56zm6.89 0h2.76l4.32 10.1V.56h3.28V20h-2.66L91.2 9.25V20h-3.38V.56z"
+              fill="#FCFCFC" /></svg>
+          <ul class="menu__list">
+            <li class="menu_item"><a href="" class="menu__link">О нас</a></li>
+            <li class="menu_item"><a href="" class="menu__link">Туры</a></li>
+            <li class="menu_item"><a href="" class="menu__link">Подбор тура</a></li>
+            <li class="menu_item"><a href="" class="menu__link">Блог</a></li>
+            <li class="menu_item"><a href="" class="menu__link">Контакты</a></li>
+          </ul>
+          <div class="menu__tools">
+            <a href="tel:+7(800)777-33-25" class="header__tel-link">8 (800) 777-33-25</a>
+            <a href="" class="header-tool__link"><img class="menu-tool__image" src="./images/svg/search.svg" alt=""></a>
+            <a href="" class="header-tool__link"><img class="menu-tool__image" src="./images/svg/search.svg" alt=""></a>
+          </div>
+        </div>
+      </nav>
     </div>
-   </nav>
-  </div>
- </header>
+  </header>
 
- <!-- Promo -->
+  <!-- Promo -->
 
- <section class="promo">
-  <div class="container">
-   <h1 class="promo__title">Эверест</h1>
-   <button class="button button_promo" type="button">Подробнее</button>
-  </div>
- </section>
-
- <!--  Tours -->
-
- <main class="main"></main>
-
- <section class="tours">
-  <div class="container">
-
-   <div class="tours__text-container">
-    <h2 class="tours__title">Туры с восхождением
-     на вершины мира</h2>
-    <p class="tours__subtitle">Мы являемся экспертами в организации альпинистских туров для опытных альпинистов
-     и для новичков. Вы можете доверить нам полную организацию вашего приключения от А до Я и быть уверенными в
-     качестве и безопасности восхождения.
-     Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет, визу, бронирование
-     проживания, питание, оборудование, необходимое для восхождения, опытных гидов, полное сопровождение.</p>
-   </div>
-
-   <div class="tours__wrapper">
-    <h2 class="tours__title">Популярные Туры</h2>
-
-    <!-- Grid-Cards -->
-
-    <div class="tour-grid">
-     <article class="card card-bel">
-      <div class="card__wrapper-header">
-       <p class="card__text-country">Россия</p>
-       <img src="./images/svg/book.svg" alt="добавить в закладку" class="card__bookmark">
+  <section class="promo">
+    <div class="container">
+      <div class="promo__wrapper">
+        <h1 class="promo__title">Эверест</h1>
+        <button class="button button_promo" type="button">Подробнее</button>
       </div>
-      <div class="card__wrapper-footer">
-       <h3 class="card__title">Белуха</h3>
-       <p class="features">4506 м | 12 дней | от 45 000 руб</p>
-       <p class="difficulty">Средний уровень</p>
-      </div>
-     </article>
-     <article class="card card-el">
-      <div class="card__wrapper-header">
-       <p class="card__text-country">Россия</p>
-       <img src="./images/svg/book.svg" alt="добавить в закладку" class="card__bookmark">
-      </div>
-      <div class="card__wrapper-footer">
-       <h3 class="card__title">Белуха</h3>
-       <p class="features">4506 м | 12 дней | от 45 000 руб</p>
-       <p class="difficulty">Средний уровень</p>
-      </div>
-     </article>
-     <article class="card card-kil">
-      <div class="card__wrapper-header">
-       <p class="card__text-country">Россия</p>
-       <img src="./images/svg/book.svg" alt="добавить в закладку" class="card__bookmark">
-      </div>
-      <div class="card__wrapper-footer">
-       <h3 class="card__title">Белуха</h3>
-       <p class="features">4506 м | 12 дней | от 45 000 руб</p>
-       <p class="difficulty">Средний уровень</p>
-      </div>
-     </article>
-
-     <!-- Button -->
-
-     <div class="button-container">
-      <button class="btn btn-next" type="button">
-       <img src="./images/svg/button.svg" alt="">
-      </button>
-      <button class="btn btn-next" type="button">
-       <img src="./images/svg/button.svg" alt="">
-      </button>
-     </div>
-
     </div>
-   </div>
-  </div>
- </section>
+  </section>
 
- <!-- Directions -->
+  <!--  Tours -->
 
- <section class="directions">
-  <div class="container">
-   <h2 class="directions__title">Россия</h2>
-   <p class="directions__subtitle">Более 15 туров для альпинистов всех уровней</p>
-   <div class="directions__wrapper">
+  <main class="main"></main>
 
-    <ul class="directions__topics">
-     <li class="directions__item">Вершина</li>
-     <li class="directions__item">Высота</li>
-     <li class="directions__item">Уровень</li>
-     <li class="directions__item">Стоимость</li>
-    </ul>
-    <ul class="directions__topics">
-     <li class="directions__item">Эльбрус</li>
-     <li class="directions__item">5642 м</li>
-     <li class="directions__item">Средний</li>
-     <li class="directions__item">от 25 000 р</li>
-    </ul>
+  <section class="tours">
+    <div class="container">
 
-    <ul class="directions__topics">
-     <li class="directions__item">Казбек</li>
-     <li class="directions__item">5033 м</li>
-     <li class="directions__item">Сложный</li>
-     <li class="directions__item">от 30 000 р</li>
-    </ul>
+      <div class="tours__text-container">
+        <h2 class="tours__title">Туры с восхождением
+          на вершины мира</h2>
+        <p class="tours__subtitle">Мы являемся экспертами в организации альпинистских туров для опытных альпинистов
+          и для новичков. Вы можете доверить нам полную организацию вашего приключения от А до Я и быть уверенными в
+          качестве и безопасности восхождения.
+          Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет, визу, бронирование
+          проживания, питание, оборудование, необходимое для восхождения, опытных гидов, полное сопровождение.</p>
+      </div>
 
-    <ul class="directions__topics">
-     <li class="directions__item">Белуха</li>
-     <li class="directions__item">4506 м</li>
-     <li class="directions__item">Простой</li>
-     <li class="directions__item">от 20 000 р</li>
-    </ul>
+      <div class="tours__wrapper">
+        <h2 class="tours__title">Популярные Туры</h2>
 
-    <ul class="directions__topics">
-     <li class="directions__item">Дыхтау</li>
-     <li class="directions__item">5204 м</li>
-     <li class="directions__item">Сложный</li>
-     <li class="directions__item">от 40 000 р</li>
-    </ul>
-    <button class="button button_directions">Смотреть все</button>
-   </div>
-  </div>
-  </div>
- </section>
+        <!-- Grid-Cards -->
 
- <!-- Blog -->
+        <div class="tour-grid">
+          <article class="card card-bel">
+            <div class="card__wrapper-header">
+              <p class="card__text-country">Россия</p>
+              <img src="./images/svg/book.svg" alt="добавить в закладку" class="card__bookmark">
+            </div>
+            <div class="card__wrapper-footer">
+              <h3 class="card__title">Белуха</h3>
+              <p class="features">4506 м | 12 дней | от 45 000 руб</p>
+              <p class="difficulty">Средний уровень</p>
+            </div>
+          </article>
+          <article class="card card-el">
+            <div class="card__wrapper-header">
+              <p class="card__text-country">Россия</p>
+              <img src="./images/svg/book.svg" alt="добавить в закладку" class="card__bookmark">
+            </div>
+            <div class="card__wrapper-footer">
+              <h3 class="card__title">Белуха</h3>
+              <p class="features">4506 м | 12 дней | от 45 000 руб</p>
+              <p class="difficulty">Средний уровень</p>
+            </div>
+          </article>
+          <article class="card card-kil">
+            <div class="card__wrapper-header">
+              <p class="card__text-country">Россия</p>
+              <img src="./images/svg/book.svg" alt="добавить в закладку" class="card__bookmark">
+            </div>
+            <div class="card__wrapper-footer">
+              <h3 class="card__title">Белуха</h3>
+              <p class="features">4506 м | 12 дней | от 45 000 руб</p>
+              <p class="difficulty">Средний уровень</p>
+            </div>
+          </article>
 
- <section class="blog">
-  <div class="container">
-   <h2 class="blog__title">Блог</h2>
-   <div class="blog__wrapper">
-    <aside class="articles">
-     <ul class="articles__lists">
-      <li class="articles__item">
+          <!-- Button -->
 
-       <p class="date">15 января, 2020</p>
-       <a href="" class="articles__link">Как подготовиться к первому
-        восхождению на вершину</a>
-      </li>
-      <li class="articles__item">
-       <p class="date">10 января, 2020</p>
-       <a href="" class="articles__link">Фестиваль Alpika Freeski Аlpindustria Fest
-        Красная Поляна 13-16 февраля</a>
-      </li>
-      <li class="articles__item">
-       <p class="date">20 декабря, 2019</p>
-       <a href="" class="articles__link">Особенности альпинизма на Камчатке.
-        Все о Ключевой Сопке</a>
-      </li>
-      <li class="articles__item">
-       <p class="date">15 декабря, 2019</p>
-       <a href="" class="articles__link">Что происходит с человеком на высоте более 3000 метров?</a>
-      </li>
-      <li class="articles__item">
-       <p class="date">15 декабря, 2019</p>
-       <a href="" class="articles__link">Что происходит с человеком на высоте более 3000 метров?</a>
-      </li>
+          <div class="button-container">
+            <button class="btn btn-next" type="button">
+              <img src="./images/svg/button.svg" alt="">
+            </button>
+            <button class="btn btn-next" type="button">
+              <img src="./images/svg/button.svg" alt="">
+            </button>
+          </div>
 
-     </ul>
-     <button class="button button_articles" type="button">Читать все новости</button>
-    </aside>
-    <article class="article">
-     <img src="./images/blog-image.jpg" alt="" class="article__image">
-     <p class="date">15 января, 2020</p>
-     <h3 class="article__title">Как подготовиться к первому восхождению на вершину</h3>
-     <div class="article__text-container">
-      <p class="article__text">Перед тем, как отправиться на покорение вершины горы, нужно не только привести в порядок
-       свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на них
-       приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на полпути.
-       Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.</p>
-
-      <p class="article__text">Перед тем, как отправиться на покорение вершины горы, нужно не только привести в порядок
-       свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на них
-       приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на полпути.
-       Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.</p>
-
-     </div>
-
-    </article>
-   </div>
-  </div>
- </section>
- </main>
-
- <!-- Form -->
- <section class="feedback">
-  <div class="container">
-   <div class="feedback__wrapper">
-
-    <form action="http://httpbin.org/post" method="POST" name="help" class="form">
-     <h2 class="feedback__title">Нужна помощь
-      с выбором тура?</h2>
-     <p class="feedback__subtitle">Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет подходящий
-      тур</p>
-     <fieldset class="form__fieldset">
-
-      <!-- Inputs -->
-
-      <input class="form__input" id="name" type="text" name="name" placeholder="Имя" pattern="">
-      <input class="form__input" id="name" type="tel" name="tel" placeholder="Телефон" pattern="">
-      <input class="form__input" id="name" type="email" name="email" placeholder="E-mail" pattern="">
-
-      <button class="button button_form" type="submit">Отправить</button>
-
-      <p class=form__text">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
-     </fieldset>
-    </form>
-    <img src="./images/form-image.jpg" width="683" height="690" alt="заснеженные вершины гор окутанные облаками">
-   </div>
-  </div>
- </section>
-
- <!-- Contact -->
-
- <section class="contact">
-  <div class="container">
-   <div class="contact__wrapper">
-    <div class="contact__map" style="position:relative;overflow:hidden;">
-     <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
-      style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
-      href="https://yandex.ru/maps/2/saint-petersburg/house/bolshaya_konyushennaya_ulitsa_19_8/Z0kYdQVjSEQPQFtjfXVyeXpgYQ==/?clid=2296048&ll=30.323367%2C59.938645&utm_medium=mapframe&utm_source=maps&z=18.09"
-      style="color:#eee;font-size:12px;position:absolute;top:14px;">Большая Конюшенная улица, 19/8 —
-      Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCQh5ZDR8B" width="560" height="400"
-      frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+      </div>
     </div>
-    <div class="contact__text-adress">
-     <h2 class="contact__title">Контакты</h2>
-     <dl class="contact-list">
-      <div class="contact-list__item">
-       <dt class="contact-list__name">Адрес:</dt>
-       <dd class="contact-list__value">Санкт-Петербург,
-        ул. Большая Конюшенная, 19</dd>
-      </div>
-      <div class="contact-list__item">
-       <dt class="contact-list__name">Телефон:</dt>
-       <dd class="contact-list__value">8 (800) 777-33-25</dd>
-      </div>
-      <div class="contact-list__item">
-       <dt class="contact-list__name">E-mail:</dt>
-       <dd class="contact-list__value">info@mountain.ru</dd>
-      </div>
-      <div class="contact-list__item">
-       <dt class="contact-list__name">Социальные сети:</dt>
-       <dd class="contact-list__social">
+  </section>
 
-        <img class="contact__cosial-image" src="./images/svg/facebook.svg" alt="Логотип Фейсбука">
-        <img class="contact__cosial-image" src="./images/svg/instagram.svg" alt="Логотип Инстаграм">
-        <img class="contact__cosial-image" src="./images/svg/tweeter.svg" alt="Логотип Твиттера">
-       </dd>
-      </div>
-     </dl>
+  <!-- Directions -->
 
+  <section class="directions">
+    <div class="container">
+      <h2 class="directions__title">Россия</h2>
+      <p class="directions__subtitle">Более 15 туров для альпинистов всех уровней</p>
+      <div class="directions__wrapper">
+
+        <ul class="directions__topics">
+          <li class="directions__item">Вершина</li>
+          <li class="directions__item">Высота</li>
+          <li class="directions__item">Уровень</li>
+          <li class="directions__item">Стоимость</li>
+        </ul>
+        <ul class="directions__topics">
+          <li class="directions__item">Эльбрус</li>
+          <li class="directions__item">5642 м</li>
+          <li class="directions__item">Средний</li>
+          <li class="directions__item">от 25 000 р</li>
+        </ul>
+
+        <ul class="directions__topics">
+          <li class="directions__item">Казбек</li>
+          <li class="directions__item">5033 м</li>
+          <li class="directions__item">Сложный</li>
+          <li class="directions__item">от 30 000 р</li>
+        </ul>
+
+        <ul class="directions__topics">
+          <li class="directions__item">Белуха</li>
+          <li class="directions__item">4506 м</li>
+          <li class="directions__item">Простой</li>
+          <li class="directions__item">от 20 000 р</li>
+        </ul>
+
+        <ul class="directions__topics">
+          <li class="directions__item">Дыхтау</li>
+          <li class="directions__item">5204 м</li>
+          <li class="directions__item">Сложный</li>
+          <li class="directions__item">от 40 000 р</li>
+        </ul>
+        <button class="button button_directions">Смотреть все</button>
+      </div>
     </div>
-   </div>
-   </>
- </section>
+    </div>
+  </section>
 
- <!-- Footer -->
+  <!-- Blog -->
 
- <footer class="footer">
-  <div class="container">
-   <div class="footer__wrapper">
-    <p class="footer__copyright">Maroon &copy;2020 Все права защищены</p>
-    <svg width="99" height="21" fill="none">
-     <path
-      d="M.73.56h4.2l2.4 12.26L9.87.56h4.06L14.29 20H11.4L11.1 6.8 8.6 20H6.15L3.58 6.73 3.3 20H.4L.72.56zm21.87 19.7c-2.06 0-3.54-.53-4.42-1.6-.88-1.1-1.32-2.68-1.32-4.78V6.63c0-2.1.44-3.67 1.32-4.73C19.06.85 20.54.32 22.6.32c2.05 0 3.51.54 4.4 1.6.89 1.06 1.34 2.63 1.34 4.71v7.27c0 2.08-.45 3.67-1.35 4.76-.88 1.07-2.34 1.6-4.39 1.6zm0-2.83c.67 0 1.12-.22 1.34-.67.24-.46.36-1.1.36-1.9V5.67c0-.8-.12-1.41-.36-1.85-.22-.44-.67-.67-1.34-.67s-1.13.23-1.37.67a4.1 4.1 0 00-.33 1.85v9.2c0 .81.1 1.44.33 1.89.23.45.68.67 1.37.67zm13.85 2.83a6.7 6.7 0 01-3.38-.72c-.82-.5-1.4-1.2-1.73-2.13-.34-.93-.5-2.11-.5-3.55V.56h3.88v13.85c0 .93.12 1.65.34 2.18.22.53.69.8 1.4.8.7 0 1.16-.27 1.38-.8.23-.53.34-1.25.34-2.18V.56h3.91v13.3c0 1.44-.17 2.62-.5 3.55a4 4 0 01-1.75 2.13 6.7 6.7 0 01-3.39.72zm8.4-19.7h2.76l4.32 10.1V.56h3.3V20h-2.67L48.24 9.25V20h-3.39V.56zm15.12 2.93h-3V.56h9.93v2.93h-2.95V20h-3.98V3.49zM70.77.56h4.4L78.9 20h-3.65l-.72-4.27h-3.07L70.72 20H67L70.77.56zm3.39 12.72l-1.18-7.82-1.15 7.82h2.33zM80.93.56h3.93V20h-3.93V.56zm6.89 0h2.76l4.32 10.1V.56h3.28V20h-2.66L91.2 9.25V20h-3.38V.56z"
-      fill="#FCFCFC" /></svg>
-    <p class="footer__policy">Политика конфиденциальности</p>
-   </div>
-  </div>
- </footer>
+  <section class="blog">
+    <div class="container">
+      <h2 class="blog__title">Блог</h2>
+      <div class="blog__wrapper">
+        <aside class="articles">
+          <ul class="articles__lists">
+            <li class="articles__item">
+
+              <p class="date">15 января, 2020</p>
+              <a href="" class="articles__link">Как подготовиться к первому
+                восхождению на вершину</a>
+            </li>
+            <li class="articles__item">
+              <p class="date">10 января, 2020</p>
+              <a href="" class="articles__link">Фестиваль Alpika Freeski Аlpindustria Fest
+                Красная Поляна 13-16 февраля</a>
+            </li>
+            <li class="articles__item">
+              <p class="date">20 декабря, 2019</p>
+              <a href="" class="articles__link">Особенности альпинизма на Камчатке.
+                Все о Ключевой Сопке</a>
+            </li>
+            <li class="articles__item">
+              <p class="date">15 декабря, 2019</p>
+              <a href="" class="articles__link">Что происходит с человеком на высоте более 3000 метров?</a>
+            </li>
+            <li class="articles__item">
+              <p class="date">15 декабря, 2019</p>
+              <a href="" class="articles__link">Что происходит с человеком на высоте более 3000 метров?</a>
+            </li>
+
+          </ul>
+          <button class="button button_articles" type="button">Читать все новости</button>
+        </aside>
+        <article class="article">
+          <img src="./images/blog-image.jpg" alt="" class="article__image">
+          <p class="date">15 января, 2020</p>
+          <h3 class="article__title">Как подготовиться к первому восхождению на вершину</h3>
+          <div class="article__text-container">
+            <p class="article__text">Перед тем, как отправиться на покорение вершины горы, нужно не только привести в
+              порядок
+              свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на
+              них
+              приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на
+              полпути.
+              Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.</p>
+
+            <p class="article__text">Перед тем, как отправиться на покорение вершины горы, нужно не только привести в
+              порядок
+              свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на
+              них
+              приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на
+              полпути.
+              Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.</p>
+
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Form -->
+  <section class="feedback">
+    <div class="container">
+      <div class="feedback__wrapper">
+
+        <form action="http://httpbin.org/post" method="POST" name="help" class="form">
+          <h2 class="feedback__title">Нужна помощь
+            с выбором тура?</h2>
+          <p class="feedback__subtitle">Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет
+            подходящий
+            тур</p>
+          <fieldset class="form__fieldset">
+
+            <!-- Inputs -->
+
+            <input class="form__input" id="name" type="text" name="name" placeholder="Имя" pattern="">
+            <input class="form__input" id="name" type="tel" name="tel" placeholder="Телефон" pattern="">
+            <input class="form__input" id="name" type="email" name="email" placeholder="E-mail" pattern="">
+
+            <button class="button button_form" type="submit">Отправить</button>
+
+            <p class=form__text">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
+          </fieldset>
+        </form>
+        <img src="./images/form-image.jpg" width="683" height="690" alt="заснеженные вершины гор окутанные облаками">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+
+  <section class="contact">
+    <div class="container">
+      <div class="contact__wrapper">
+        <div class="contact__map" style="position:relative;overflow:hidden;">
+          <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
+            href="https://yandex.ru/maps/2/saint-petersburg/house/bolshaya_konyushennaya_ulitsa_19_8/Z0kYdQVjSEQPQFtjfXVyeXpgYQ==/?clid=2296048&ll=30.323367%2C59.938645&utm_medium=mapframe&utm_source=maps&z=18.09"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Большая Конюшенная улица, 19/8 —
+            Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCQh5ZDR8B" width="560" height="400"
+            frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+        <div class="contact__text-adress">
+          <h2 class="contact__title">Контакты</h2>
+          <dl class="contact-list">
+            <div class="contact-list__item">
+              <dt class="contact-list__name">Адрес:</dt>
+              <dd class="contact-list__value">Санкт-Петербург,
+                ул. Большая Конюшенная, 19</dd>
+            </div>
+            <div class="contact-list__item">
+              <dt class="contact-list__name">Телефон:</dt>
+              <dd class="contact-list__value">8 (800) 777-33-25</dd>
+            </div>
+            <div class="contact-list__item">
+              <dt class="contact-list__name">E-mail:</dt>
+              <dd class="contact-list__value">info@mountain.ru</dd>
+            </div>
+            <div class="contact-list__item">
+              <dt class="contact-list__name">Социальные сети:</dt>
+              <dd class="contact-list__social">
+
+                <img class="contact__cosial-image" src="./images/svg/facebook.svg" alt="Логотип Фейсбука">
+                <img class="contact__cosial-image" src="./images/svg/instagram.svg" alt="Логотип Инстаграм">
+                <img class="contact__cosial-image" src="./images/svg/tweeter.svg" alt="Логотип Твиттера">
+              </dd>
+            </div>
+          </dl>
+
+        </div>
+      </div>
+      </>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <p class="footer__copyright">Maroon &copy;2020 Все права защищены</p>
+        <svg width="99" height="21" fill="none">
+          <path
+            d="M.73.56h4.2l2.4 12.26L9.87.56h4.06L14.29 20H11.4L11.1 6.8 8.6 20H6.15L3.58 6.73 3.3 20H.4L.72.56zm21.87 19.7c-2.06 0-3.54-.53-4.42-1.6-.88-1.1-1.32-2.68-1.32-4.78V6.63c0-2.1.44-3.67 1.32-4.73C19.06.85 20.54.32 22.6.32c2.05 0 3.51.54 4.4 1.6.89 1.06 1.34 2.63 1.34 4.71v7.27c0 2.08-.45 3.67-1.35 4.76-.88 1.07-2.34 1.6-4.39 1.6zm0-2.83c.67 0 1.12-.22 1.34-.67.24-.46.36-1.1.36-1.9V5.67c0-.8-.12-1.41-.36-1.85-.22-.44-.67-.67-1.34-.67s-1.13.23-1.37.67a4.1 4.1 0 00-.33 1.85v9.2c0 .81.1 1.44.33 1.89.23.45.68.67 1.37.67zm13.85 2.83a6.7 6.7 0 01-3.38-.72c-.82-.5-1.4-1.2-1.73-2.13-.34-.93-.5-2.11-.5-3.55V.56h3.88v13.85c0 .93.12 1.65.34 2.18.22.53.69.8 1.4.8.7 0 1.16-.27 1.38-.8.23-.53.34-1.25.34-2.18V.56h3.91v13.3c0 1.44-.17 2.62-.5 3.55a4 4 0 01-1.75 2.13 6.7 6.7 0 01-3.39.72zm8.4-19.7h2.76l4.32 10.1V.56h3.3V20h-2.67L48.24 9.25V20h-3.39V.56zm15.12 2.93h-3V.56h9.93v2.93h-2.95V20h-3.98V3.49zM70.77.56h4.4L78.9 20h-3.65l-.72-4.27h-3.07L70.72 20H67L70.77.56zm3.39 12.72l-1.18-7.82-1.15 7.82h2.33zM80.93.56h3.93V20h-3.93V.56zm6.89 0h2.76l4.32 10.1V.56h3.28V20h-2.66L91.2 9.25V20h-3.38V.56z"
+            fill="#FCFCFC" /></svg>
+        <p class="footer__policy">Политика конфиденциальности</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 

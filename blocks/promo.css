@@ -1,0 +1,23 @@
+.promo__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.promo__title {
+    margin: 0;
+    padding: 0 0 20px 0;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 98px;
+    font-weight: 600;
+    line-height: 145px;
+    text-align: center;
+    color: var(--white);
+}
+
+.button_promo {
+    margin: 0 auto;
+    margin-bottom: 205px;
+    color: var(--white)
+}
