@@ -1,0 +1,72 @@
+.tours__text-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding-top: 134px;
+    padding-bottom: 140px;
+
+}
+
+.tours {
+    background-image: url(../images/map-image.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 53%;
+    background-size: 815px;
+}
+
+.tours__title {
+    margin: 0;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 115%;
+
+}
+
+.tours__subtitle {
+    margin: 0;
+    max-width: 350px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.tours__subtitle:last-of-type {
+    padding-top: 15px;
+
+}
+
+/* Модификаторы */
+
+.tours__title_main {
+    max-width: 474px;
+    padding-bottom: 39px;
+}
+
+.tours__title_best {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.tours__title_direct {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--white)
+}
+
+.tours__title_blog {
+    padding-top: 140px;
+    text-align: center;
+    padding-bottom: 80px;
+    color: var(--dark)
+}
+
+/* Best-tour */
+
+.best-tours__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 31px;
+}

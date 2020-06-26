@@ -59,68 +59,74 @@
     <div class="container">
 
       <div class="tours__text-container">
-        <h2 class="tours__title">Туры с восхождением
+        <h2 class="tours__title tours__title_main">Туры с восхождением
           на вершины мира</h2>
         <p class="tours__subtitle">Мы являемся экспертами в организации альпинистских туров для опытных альпинистов
           и для новичков. Вы можете доверить нам полную организацию вашего приключения от А до Я и быть уверенными в
-          качестве и безопасности восхождения.
-          Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет, визу, бронирование
-          проживания, питание, оборудование, необходимое для восхождения, опытных гидов, полное сопровождение.</p>
+          качестве и безопасности восхождения.</p>
+        <p class="tours__subtitle">Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет,
+          визу, бронирование проживания, питание, оборудование, необходимое для восхождения, опытных гидов, полное
+          сопровождение.</p>
       </div>
-
-      <div class="tours__wrapper">
-        <h2 class="tours__title">Популярные Туры</h2>
+  </section>
+  <section class="best-tours">
+    <div class="container">
+      <div class="best-tours__wrapper">
+        <h2 class="tours__title tours__title_best">Популярные Туры</h2>
 
         <!-- Grid-Cards -->
 
-        <div class="tour-grid">
-          <article class="card card-bel">
+        <div class="best-tours__grid">
+          <article class="card card_bel card_image">
             <div class="card__wrapper-header">
               <p class="card__text-country">Россия</p>
-              <img src="./images/svg/book.svg" alt="добавить в закладку" class="card__bookmark">
+              <img class="card__bookmark-button" src="/images/svg/book.svg" alt="Кнопка добавить в закладку">
+
             </div>
             <div class="card__wrapper-footer">
               <h3 class="card__title">Белуха</h3>
-              <p class="features">4506 м | 12 дней | от 45 000 руб</p>
-              <p class="difficulty">Средний уровень</p>
+              <p class="card__features">4506 м | 12 дней | от 45 000 руб</p>
+              <p class="card__difficulty">Средний уровень</p>
             </div>
           </article>
-          <article class="card card-el">
+          <article class="card card_el card_image">
             <div class="card__wrapper-header">
               <p class="card__text-country">Россия</p>
-              <img src="./images/svg/book.svg" alt="добавить в закладку" class="card__bookmark">
+              <img class="card__bookmark-button" src="/images/svg/book.svg" alt="Кнопка добавить в закладку">
+
             </div>
             <div class="card__wrapper-footer">
               <h3 class="card__title">Белуха</h3>
-              <p class="features">4506 м | 12 дней | от 45 000 руб</p>
-              <p class="difficulty">Средний уровень</p>
+              <p class="card__features">4506 м | 12 дней | от 45 000 руб</p>
+              <p class="card__difficulty">Средний уровень</p>
             </div>
           </article>
-          <article class="card card-kil">
+          <article class="card card_kil card_image">
             <div class="card__wrapper-header">
-              <p class="card__text-country">Россия</p>
-              <img src="./images/svg/book.svg" alt="добавить в закладку" class="card__bookmark">
+              <p class="card__text-country">Танзания</p>
+              <img class="card__bookmark-button" src="/images/svg/book.svg" alt="Кнопка добавить в закладку">
+
             </div>
             <div class="card__wrapper-footer">
               <h3 class="card__title">Белуха</h3>
-              <p class="features">4506 м | 12 дней | от 45 000 руб</p>
-              <p class="difficulty">Средний уровень</p>
+              <p class="card__features">4506 м | 12 дней | от 45 000 руб</p>
+              <p class="card__difficulty">Средний уровень</p>
             </div>
           </article>
 
           <!-- Button -->
 
-          <div class="button-container">
-            <button class="btn btn-next" type="button">
-              <img src="./images/svg/button.svg" alt="">
+          <div class="card__button-container">
+            <button class="card__btn card__btn_next" type="button">
+              <img class="card__btn-img" src="./images/svg/button.svg" alt="">
             </button>
-            <button class="btn btn-next" type="button">
-              <img src="./images/svg/button.svg" alt="">
+            <button class="card__btn card__btn_prev" type="button">
+              <img class="card__btn-img" src="./images/svg/button.svg" alt="">
             </button>
           </div>
-
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -128,7 +134,7 @@
 
   <section class="directions">
     <div class="container">
-      <h2 class="directions__title">Россия</h2>
+      <h2 class="tours__title tours__title_direct">Россия</h2>
       <p class="directions__subtitle">Более 15 туров для альпинистов всех уровней</p>
       <div class="directions__wrapper">
 
@@ -175,14 +181,14 @@
 
   <section class="blog">
     <div class="container">
-      <h2 class="blog__title">Блог</h2>
+      <h2 class="tours__title tours__title_blog">Блог</h2>
       <div class="blog__wrapper">
         <aside class="articles">
           <ul class="articles__lists">
-            <li class="articles__item">
+            <li class="articles__item articles__item_active">
 
               <p class="date">15 января, 2020</p>
-              <a href="" class="articles__link">Как подготовиться к первому
+              <a href="" class="articles__link articles__link_active">Как подготовиться к первому
                 восхождению на вершину</a>
             </li>
             <li class="articles__item">
@@ -193,7 +199,8 @@
             <li class="articles__item">
               <p class="date">20 декабря, 2019</p>
               <a href="" class="articles__link">Особенности альпинизма на Камчатке.
-                Все о Ключевой Сопке</a>
+                Все о Ключевой СопкеОсобенности альпинизма на Камчатке.
+              </a>
             </li>
             <li class="articles__item">
               <p class="date">15 декабря, 2019</p>
@@ -260,7 +267,8 @@
             <p class=form__text">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
           </fieldset>
         </form>
-        <img src="./images/form-image.jpg" width="683" height="690" alt="заснеженные вершины гор окутанные облаками">
+        <img class="feedback__image" src="./images/form-image.jpg" width="683" height="690"
+          alt="заснеженные вершины гор окутанные облаками">
       </div>
     </div>
   </section>

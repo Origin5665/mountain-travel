@@ -1,6 +1,14 @@
-button {
+.button {
     border: 2px solid var(--white);
     box-sizing: border-box;
     background: transparent;
-    padding: 12px 40px;
+    width: 232px;
+    height: 44px;
+}
+
+
+.button_articles {
+    width: 400px;
+    background: var(--orange);
+    color: var(--white);
 }

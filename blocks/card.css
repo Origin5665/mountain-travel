@@ -1,0 +1,145 @@
+.card {
+    border: 1px solid brown;
+    padding: 40px 40px 40px 40px
+}
+
+
+
+
+.card_bel {
+    background-image: url(../images/card/card-bel.jpg);
+
+}
+
+.card_el {
+    background-image: url(../images/card/card-el.jpg);
+
+    z-index: 1;
+}
+
+.card_kil {
+    background-image: url(../images/card/card-kil.jpg);
+
+}
+
+.card_image {
+    position: relative;
+    z-index: 2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.card_image:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    content: "";
+    background: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%);
+    opacity: 0.2;
+    z-index: -1;
+    transition: .1s ease;
+
+}
+
+.card_image:hover::before {
+    background: var(--dark);
+
+}
+
+
+.card__text-country {
+    margin: 0;
+    padding-bottom: 137px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 115%;
+}
+
+.card__text-country:before {
+    content: url(../images/svg/location.svg);
+    padding-right: 5px;
+}
+
+.card__title {
+    margin: 0;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 115%;
+    z-index: 2;
+}
+
+.card__features {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 115%;
+}
+
+.card__difficulty {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 115%;
+}
+
+.card__wrapper-header {
+    display: flex;
+
+}
+
+.card__bookmark-button {
+    position: relative;
+    width: 13px;
+    height: 16px;
+    align-self: start;
+    margin-left: auto;
+
+}
+
+.card__bookmark-button::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    content: "";
+    background: var(--white);
+    width: 15px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.card__button-container {
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 140px;
+}
+
+.card__btn {
+    padding: 0;
+
+    display: flex;
+
+
+
+
+
+}
+
+.card__btn_next {
+    transform: rotate(180deg);
+
+}
+
+.card__btn-img {
+    width: 15px;
+    height: 20px;
+    margin-left: 5px;
+}

@@ -1,0 +1,22 @@
+.feedback__wrapper {
+    display: grid;
+    grid-template-columns: 683px auto;
+}
+
+.feedback__image {
+    width: 683px;
+}
+
+
+
+/* form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__fieldset {
+    display: flex;
+    flex-direction: column;
+}
