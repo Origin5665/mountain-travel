@@ -3,7 +3,7 @@
     flex-direction: column;
     margin-right: auto;
     padding-top: 134px;
-    padding-bottom: 140px;
+    padding-bottom: 132px;
 
 }
 
@@ -61,6 +61,19 @@
     text-align: center;
     padding-bottom: 80px;
     color: var(--dark)
+}
+
+.tours__title_feed {
+    padding-top: 72px;
+    text-align: left;
+    padding-bottom: 29px;
+    color: var(--white);
+}
+
+.tours__title_contact {
+
+    padding-bottom: 52px;
+
 }
 
 /* Best-tour */

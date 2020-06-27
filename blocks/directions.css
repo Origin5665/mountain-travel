@@ -15,6 +15,7 @@
 .directions__wrapper {
     max-width: 830px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 .directions {
@@ -43,7 +44,7 @@
     margin: 0 auto;
     color: var(--white);
     transition: .1s ease;
-    margin-bottom: 100px;
+
 }
 
 .button_directions:hover {

@@ -8,7 +8,7 @@
 .menu__wrapper {
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
+
     align-items: baseline;
 
 }

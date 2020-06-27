@@ -12,8 +12,4 @@
 @import '../blocks/footer.css';
 @import '../blocks/button.css';
 @import '../blocks/card.css';
-
-html {
-    height: 100%;
-
-}
+@import '../blocks/contact.css';

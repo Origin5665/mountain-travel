@@ -1,0 +1,47 @@
+.contact__wrapper {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    column-gap: 70px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+}
+
+.contact-list {
+    margin: 0;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 30px;
+    width: 300px;
+}
+
+.contact-list__value {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    margin: 0;
+
+
+}
+
+.contact-list__name {
+    padding-bottom: 11px;
+}
+
+.contact__image {
+    width: 600px;
+    height: 457px;
+    padding-top: 6px;
+}
+
+.contact-list__social {
+    width: 200px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.contact__cosial-image {
+    padding-right: 15px
+}

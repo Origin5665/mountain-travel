@@ -11,4 +11,12 @@
     width: 400px;
     background: var(--orange);
     color: var(--white);
+    margin-bottom: 140px;
+}
+
+.button_form {
+    background: var(--orange);
+    width: 100%;
+    border: none;
+    color: var(--white);
 }

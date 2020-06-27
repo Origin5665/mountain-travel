@@ -1,0 +1,20 @@
+.footer {
+    background: var(--dark);
+    color: var(--white)
+}
+
+
+.footer__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    margin: 0;
+}
+
+.footer__policy {
+    margin: 0;
+}
