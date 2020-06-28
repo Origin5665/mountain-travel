@@ -1,7 +1,7 @@
 .menu {
     box-sizing: border-box;
     padding-top: 33px;
-    padding-bottom: 161px;
+    padding-bottom: 230px;
 
 }
 
@@ -30,7 +30,12 @@
     font-size: 16px;
     line-height: 19px;
     text-decoration: none;
-    color: var(--white)
+    color: var(--white);
+    transition: linear .1s;
+}
+
+.menu__link:hover {
+    color: #4B2525
 }
 
 .menu_item {
@@ -41,15 +46,22 @@
     min-height: 35px;
     flex-shrink: 0;
     margin-right: auto;
-    flex-grow: 2;
+    flex-grow: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
 }
 
 .header__tel-link {
     text-decoration: none;
-    color: var(--white)
+    color: var(--white);
+    transition: linear .1s;
+
+}
+
+.header__tel-link:hover {
+    text-decoration: underline;
+    color: #4b2525d3
 }
 
 .header-tool__link {
@@ -78,9 +90,12 @@
     opacity: 0.2;
     border-radius: 100%;
 
-
 }
 
+.header-tool__link:hover:before {
+    background: #4B2525;
+    transition: linear .1s;
+}
 
 
 .menu-tool__image {
@@ -91,4 +106,8 @@
     fill: indigo;
 
 
+}
+
+.menu-tool__image {
+    fill: blue
 }

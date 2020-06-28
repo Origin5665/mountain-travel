@@ -1,22 +1,86 @@
 .button {
-    border: 2px solid var(--white);
+    border: none;
     box-sizing: border-box;
     background: transparent;
-    width: 232px;
-    height: 44px;
+    outline-style: none;
+}
+
+
+
+
+
+/* Модификаторы */
+
+.button_promo {
+    color: var(--white);
+    margin: 0 auto;
+    margin-bottom: 452px;
+
+}
+
+.button_border {
+    width: 170px;
+    height: 45px;
+    border: 2px solid var(--white);
+}
+
+.button_state-group-1:active {
+    transform: scale(0.97);
+    background: #fbfbfb38
+}
+
+.button_state-group-1:hover {
+    background: #ebe7e738
+}
+
+.button_state-group-1:focus {
+    background: #fbfbfb38
+}
+
+.button_state-group-1:focus {
+    background: #fbfbfb38
 }
 
 
 .button_articles {
     width: 400px;
+    height: 50px;
     background: var(--orange);
     color: var(--white);
     margin-bottom: 140px;
+    transition: linear .1s;
+    box-shadow: 0px 1px 1px 1px rgba(17, 16, 16, 0.329);
+    border-radius: 3px;
+}
+
+.button_state-group-2:active {
+    transform: scale(0.98);
+
+}
+
+.button_state-group-2:hover {
+    background: rgb(218, 82, 20);
+}
+
+.button_state-group-2:focus {
+    background: rgba(202, 94, 6, 0.884);
 }
 
 .button_form {
+    height: 50px;
     background: var(--orange);
     width: 100%;
     border: none;
     color: var(--white);
+    transition: linear .1s;
+    border-radius: 3px;
+}
+
+
+.button_directions {
+    display: block;
+    margin: 0 auto;
+    color: var(--white);
+    transition: .1s ease;
+
 }

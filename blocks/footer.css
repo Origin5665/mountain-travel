@@ -3,7 +3,6 @@
     color: var(--white)
 }
 
-
 .footer__wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -17,4 +16,9 @@
 
 .footer__policy {
     margin: 0;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--white)
 }

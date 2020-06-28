@@ -7,18 +7,18 @@
 
 
 .card_bel {
-    background-image: url(../images/card/card-bel.jpg);
+    background-image: url(../images/card/card-bel.webp);
 
 }
 
 .card_el {
-    background-image: url(../images/card/card-el.jpg);
+    background-image: url(../images/card/card-el.webp);
 
     z-index: 1;
 }
 
 .card_kil {
-    background-image: url(../images/card/card-kil.jpg);
+    background-image: url(../images/card/card-kil.webp);
 
 }
 
@@ -28,6 +28,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: ease .1s;
+    cursor: pointer;
 
 
 }
@@ -41,17 +43,24 @@
     display: block;
     content: "";
     background: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%);
-    opacity: 0.2;
+    opacity: 0.6;
     z-index: -1;
     transition: .1s ease;
 
 }
 
 .card_image:hover::before {
-    background: var(--dark);
+    background: linear-gradient(180deg, rgba(86, 68, 153, 0.653) 6%, rgba(44, 138, 192, 0.549) 76%);
+    opacity: 0.9;
+
+
 
 }
 
+.card_image:hover {
+    transform: translate(0, -10px);
+
+}
 
 .card__text-country {
     margin: 0;
@@ -89,57 +98,80 @@
 
 .card__wrapper-header {
     display: flex;
+    justify-content: space-between;
+
+}
+
+.card__bookmark-img {
+    width: 13px;
+    height: 16px;
+    margin: 0 auto;
+    align-self: center;
 
 }
 
 .card__bookmark-button {
-    position: relative;
-    width: 13px;
-    height: 16px;
-    align-self: start;
-    margin-left: auto;
-
-}
-
-.card__bookmark-button::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: block;
-    content: "";
-    background: var(--white);
-    width: 15px;
-    height: 20px;
+    padding: 0;
+    display: flex;
     border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    background: #bdbebe9b;
+    border: none;
+    transition: ease-in .1s;
+
 }
+
 
 .card__button-container {
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
+    padding-top: 40px;
     padding-bottom: 140px;
 }
 
 .card__btn {
     padding: 0;
-
     display: flex;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    background: var(--gray);
+    border: none;
+    align-items: center;
+    transition: ease-in .1s;
+    box-shadow: 0px 1px 1px 1px rgba(17, 16, 16, 0.329);
+    outline: none;
+}
 
+.card__btn:hover {
+    background: #21b2c5;
+}
 
-
-
+.card__btn:active {
+    background: #21b2c5;
+    transform: scale(0.95);
 
 }
 
+
 .card__btn_next {
-    transform: rotate(180deg);
+
+    margin-right: 25px;
 
 }
 
 .card__btn-img {
-    width: 15px;
-    height: 20px;
-    margin-left: 5px;
+    width: 11px;
+    height: 7px;
+    margin-left: 4px;
+    margin: 0 auto;
+
+}
+
+.card__img:active {
+    background: #21b2c5;
+    transform: scale(0.95);
+
 }

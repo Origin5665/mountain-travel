@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title lang="en">Mountain</title>
-  <link rel="stylesheet" href="vendor/fonts/fonts.css">
+
   <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/style.css">
+  <link rel="stylesheet" href="vendor/fonts/fonts.css">
 </head>
 
 <body class="page">
@@ -32,8 +33,10 @@
           </ul>
           <div class="menu__tools">
             <a href="tel:+7(800)777-33-25" class="header__tel-link">8 (800) 777-33-25</a>
-            <a href="" class="header-tool__link"><img class="menu-tool__image" src="./images/svg/search.svg" alt=""></a>
-            <a href="" class="header-tool__link"><img class="menu-tool__image" src="./images/svg/search.svg" alt=""></a>
+            <a href="#" class="header-tool__link"><img class="menu-tool__image" src="./images/svg/search.png"
+                alt="Кнопка поиска"></a>
+            <a href="#" class="header-tool__link"><img class="menu-tool__image" src="./images/svg/profile.png"
+                alt="Кнопка входа в личный кабинет"></a>
           </div>
         </div>
       </nav>
@@ -46,7 +49,7 @@
     <div class="container">
       <div class="promo__wrapper">
         <h1 class="promo__title">Эверест</h1>
-        <button class="button button_promo" type="button">Подробнее</button>
+        <button class="button button_promo button_state-group-1 button_border" type="button">Подробнее</button>
       </div>
     </div>
   </section>
@@ -80,7 +83,9 @@
           <article class="card card_bel card_image">
             <div class="card__wrapper-header">
               <p class="card__text-country">Россия</p>
-              <img class="card__bookmark-button" src="/images/svg/book.svg" alt="Кнопка добавить в закладку">
+              <button class="card__bookmark-button" type="button" aria-label="Добавить в закладку">
+                <img class="card__bookmark-img" src="/images/svg/book.svg" alt="Кнопка добавить в закладку">
+              </button>
 
             </div>
             <div class="card__wrapper-footer">
@@ -92,7 +97,10 @@
           <article class="card card_el card_image">
             <div class="card__wrapper-header">
               <p class="card__text-country">Россия</p>
-              <img class="card__bookmark-button" src="/images/svg/book.svg" alt="Кнопка добавить в закладку">
+              <button class="card__bookmark-button" type="button" aria-label="Добавить в закладку">
+                <img class="card__bookmark-img" src="/images/svg/book.svg" alt="Кнопка добавить в закладку">
+              </button>
+
 
             </div>
             <div class="card__wrapper-footer">
@@ -104,8 +112,9 @@
           <article class="card card_kil card_image">
             <div class="card__wrapper-header">
               <p class="card__text-country">Танзания</p>
-              <img class="card__bookmark-button" src="/images/svg/book.svg" alt="Кнопка добавить в закладку">
-
+              <button class="card__bookmark-button" type="button" aria-label="Добавить в закладку">
+                <img class="card__bookmark-img" src="/images/svg/book.svg" alt="Кнопка добавить в закладку">
+              </button>
             </div>
             <div class="card__wrapper-footer">
               <h3 class="card__title">Белуха</h3>
@@ -117,10 +126,10 @@
           <!-- Button -->
 
           <div class="card__button-container">
-            <button class="card__btn card__btn_next" type="button">
-              <img class="card__btn-img" src="./images/svg/button.svg" alt="">
+            <button class="card__btn card__btn_next" type="button" aria-label="Следующее изображение">
+              <img class="card__btn-img" src="./images/svg/left.svg" alt="">
             </button>
-            <button class="card__btn card__btn_prev" type="button">
+            <button class="card__btn card__btn_prev" type="button" aria-label="Предыдущее изображение">
               <img class="card__btn-img" src="./images/svg/button.svg" alt="">
             </button>
           </div>
@@ -137,41 +146,40 @@
       <h2 class="tours__title tours__title_direct">Россия</h2>
       <p class="directions__subtitle">Более 15 туров для альпинистов всех уровней</p>
       <div class="directions__wrapper">
+        <div class="direction__wrapper-grid">
 
-        <ul class="directions__topics">
-          <li class="directions__item">Вершина</li>
-          <li class="directions__item">Высота</li>
-          <li class="directions__item">Уровень</li>
-          <li class="directions__item">Стоимость</li>
-        </ul>
-        <ul class="directions__topics">
-          <li class="directions__item">Эльбрус</li>
-          <li class="directions__item">5642 м</li>
-          <li class="directions__item">Средний</li>
-          <li class="directions__item">от 25 000 р</li>
-        </ul>
+          <ul class="directions__topics">
+            <li class="directions__item directions__item_first">Вершина</li>
+            <li class="directions__item directions__item_main">Эльбрус</li>
+            <li class="directions__item directions__item_main">Казбек</li>
+            <li class="directions__item directions__item_main">Белуха</li>
+            <li class="directions__item directions__item_main">Дыхтау</li>
+          </ul>
+          <ul class="directions__topics">
+            <li class="directions__item directions__item_first">Высота</li>
+            <li class="directions__item directions__item_main">5642 м</li>
+            <li class="directions__item directions__item_main">5642 м</li>
+            <li class="directions__item directions__item_main">5642 м</li>
+            <li class="directions__item directions__item_main">5642 м</li>
+          </ul>
 
-        <ul class="directions__topics">
-          <li class="directions__item">Казбек</li>
-          <li class="directions__item">5033 м</li>
-          <li class="directions__item">Сложный</li>
-          <li class="directions__item">от 30 000 р</li>
-        </ul>
+          <ul class="directions__topics">
+            <li class="directions__item directions__item_first">Уровень</li>
+            <li class="directions__item directions__item_main">Средний</li>
+            <li class="directions__item directions__item_main">Сложный</li>
+            <li class="directions__item directions__item_main">Простой</li>
+            <li class="directions__item directions__item_main">Простой</li>
+          </ul>
 
-        <ul class="directions__topics">
-          <li class="directions__item">Белуха</li>
-          <li class="directions__item">4506 м</li>
-          <li class="directions__item">Простой</li>
-          <li class="directions__item">от 20 000 р</li>
-        </ul>
-
-        <ul class="directions__topics">
-          <li class="directions__item">Дыхтау</li>
-          <li class="directions__item">5204 м</li>
-          <li class="directions__item">Сложный</li>
-          <li class="directions__item">от 40 000 р</li>
-        </ul>
-        <button class="button button_directions">Смотреть все</button>
+          <ul class="directions__topics">
+            <li class="directions__item directions__item_first">Стоимость</li>
+            <li class="directions__item directions__item_main">0т 25 000 &#8381;</li>
+            <li class="directions__item directions__item_main">0т 25 000 &#8381;</li>
+            <li class="directions__item directions__item_main">0т 25 000 &#8381;</li>
+            <li class="directions__item directions__item_main">0т 25 000 &#8381;</li>
+          </ul>
+        </div>
+        <button class="button button_directions button_state-group-1 button_border">Смотреть все</button>
       </div>
     </div>
     </div>
@@ -187,36 +195,36 @@
           <ul class="articles__lists">
             <li class="articles__item articles__item_active">
 
-              <p class="date">15 января, 2020</p>
+              <p class="date date_list">15 января, 2020</p>
               <a href="" class="articles__link articles__link_active">Как подготовиться к первому
                 восхождению на вершину</a>
             </li>
             <li class="articles__item">
-              <p class="date">10 января, 2020</p>
+              <p class="date date_list">10 января, 2020</p>
               <a href="" class="articles__link">Фестиваль Alpika Freeski Аlpindustria Fest
                 Красная Поляна 13-16 февраля</a>
             </li>
             <li class="articles__item">
-              <p class="date">20 декабря, 2019</p>
+              <p class="date date_list">20 декабря, 2019</p>
               <a href="" class="articles__link">Особенности альпинизма на Камчатке.
-                Все о Ключевой СопкеОсобенности альпинизма на Камчатке.
+                Все о Ключевой Сопке
               </a>
             </li>
             <li class="articles__item">
-              <p class="date">15 декабря, 2019</p>
+              <p class="date date_list">15 декабря, 2019</p>
               <a href="" class="articles__link">Что происходит с человеком на высоте более 3000 метров?</a>
             </li>
             <li class="articles__item">
-              <p class="date">15 декабря, 2019</p>
+              <p class="date date_list">15 декабря, 2019</p>
               <a href="" class="articles__link">Что происходит с человеком на высоте более 3000 метров?</a>
             </li>
 
           </ul>
-          <button class="button button_articles" type="button">Читать все новости</button>
+          <button class="button button_articles button_state-group-2" type="button">Читать все новости</button>
         </aside>
         <article class="article">
-          <img src="./images/blog-image.jpg" alt="" class="article__image">
-          <p class="date">15 января, 2020</p>
+          <img src="./images/blog-image.webp" alt="" class="article__image">
+          <p class="date date_article">15 января, 2020</p>
           <h3 class="article__title">Как подготовиться к первому восхождению на вершину</h3>
           <div class="article__text-container">
             <p class="article__text">Перед тем, как отправиться на покорение вершины горы, нужно не только привести в
@@ -227,13 +235,13 @@
               полпути.
               Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.</p>
 
-            <p class="article__text">Перед тем, как отправиться на покорение вершины горы, нужно не только привести в
-              порядок
-              свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на
-              них
-              приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на
-              полпути.
-              Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.</p>
+            <p class="article__text">Как должны проходить тренировки? В первую очередь, тренировки должны проходить
+              постоянно, эффективно и интенсивно. Кроме того, нагрузка постепенно должна увеличиваться. В случае с бегом
+              обязательно делать это с учетом пульса. Грамотно спланированный бег позволит не только сбросить вес, но и
+              укрепит сердечную мышцу. При беге с высоким пульсом вы позволите организму привыкнуть к недостатку
+              кислорода — то, с чем обязательно встретитесь в горах. Для укрепления физической подготовки и повышения
+              выносливости также бегайте в горку или в быстром темпе поднимайтесь по лестницам. И не забудьте отдохнуть
+              за неделю до путешествия!</p>
 
           </div>
 
@@ -251,23 +259,23 @@
         <form action="http://httpbin.org/post" method="POST" name="help" class="form">
 
           <fieldset class="form__fieldset">
-            <h2 class="tours__title tours__title_feed">Нужна помощь&nbsp;с выбором тура?</h2>
+            <h2 class="tours__title tours__title_feed">Нужна помощь с&nbsp;выбором тура?</h2>
             <p class="feedback__subtitle">Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет
               подходящий
               тур</p>
 
             <!-- Inputs -->
 
-            <input class="form__input" id="name" type="text" name="name" placeholder="Имя" pattern="">
-            <input class="form__input" id="name" type="tel" name="tel" placeholder="Телефон" pattern="">
-            <input class="form__input" id="name" type="email" name="email" placeholder="E-mail" pattern="">
+            <input class="form__input" id="name" type="text" name="name" placeholder="Имя">
+            <input class="form__input" id="tel" type="tel" name="tel" placeholder="Телефон">
+            <input class="form__input" id="email" type="email" name="email" placeholder="E-mail">
 
-            <button class="button button_form" type="submit">Отправить</button>
+            <button class="button button_form button_state-group-2" type="submit">Отправить</button>
 
             <p class="form__text">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
           </fieldset>
         </form>
-        <img class="feedback__image" src="./images/form-image.jpg" width="683" height="690"
+        <img class="feedback__image" src="./images/form-image.webp" width="683" height="690"
           alt="заснеженные вершины гор окутанные облаками">
       </div>
     </div>
@@ -278,7 +286,10 @@
   <section class="contact">
     <div class="container">
       <div class="contact__wrapper">
-        <img class="contact__image" src="./images/where-image.jpg" alt="">
+        <div class="contact__image">
+          <img class="contact__img" src="./images/where-image.webp" alt="Карта с нахождением места">
+
+        </div>
         <div class="contact__text-adress">
           <h2 class="tours__title tours__title_contact">Контакты</h2>
           <dl class="contact-list">
@@ -299,9 +310,12 @@
               <dt class="contact-list__name">Социальные сети:</dt>
               <dd class="contact-list__social">
 
-                <img class="contact__cosial-image" src="./images/svg/facebook.svg" alt="Логотип Фейсбука">
-                <img class="contact__cosial-image" src="./images/svg/instagram.svg" alt="Логотип Инстаграм">
-                <img class="contact__cosial-image" src="./images/svg/tweeter.svg" alt="Логотип Твиттера">
+                <a href="#" class="contact__link"><img class="contact__cosial-image" src="./images/svg/facebook.svg"
+                    alt="Логотип Фейсбука"></a>
+                <a href="#" class="contact__link"><img class="contact__cosial-image" src="./images/svg/instagram.svg"
+                    alt="Логотип Инстаграм"></a>
+                <a href="#" class="contact__link"><img class="contact__cosial-image" src="./images/svg/tweeter.svg"
+                    alt="Логотип Твиттера"></a>
               </dd>
             </div>
           </dl>
@@ -321,7 +335,7 @@
           <path
             d="M.73.56h4.2l2.4 12.26L9.87.56h4.06L14.29 20H11.4L11.1 6.8 8.6 20H6.15L3.58 6.73 3.3 20H.4L.72.56zm21.87 19.7c-2.06 0-3.54-.53-4.42-1.6-.88-1.1-1.32-2.68-1.32-4.78V6.63c0-2.1.44-3.67 1.32-4.73C19.06.85 20.54.32 22.6.32c2.05 0 3.51.54 4.4 1.6.89 1.06 1.34 2.63 1.34 4.71v7.27c0 2.08-.45 3.67-1.35 4.76-.88 1.07-2.34 1.6-4.39 1.6zm0-2.83c.67 0 1.12-.22 1.34-.67.24-.46.36-1.1.36-1.9V5.67c0-.8-.12-1.41-.36-1.85-.22-.44-.67-.67-1.34-.67s-1.13.23-1.37.67a4.1 4.1 0 00-.33 1.85v9.2c0 .81.1 1.44.33 1.89.23.45.68.67 1.37.67zm13.85 2.83a6.7 6.7 0 01-3.38-.72c-.82-.5-1.4-1.2-1.73-2.13-.34-.93-.5-2.11-.5-3.55V.56h3.88v13.85c0 .93.12 1.65.34 2.18.22.53.69.8 1.4.8.7 0 1.16-.27 1.38-.8.23-.53.34-1.25.34-2.18V.56h3.91v13.3c0 1.44-.17 2.62-.5 3.55a4 4 0 01-1.75 2.13 6.7 6.7 0 01-3.39.72zm8.4-19.7h2.76l4.32 10.1V.56h3.3V20h-2.67L48.24 9.25V20h-3.39V.56zm15.12 2.93h-3V.56h9.93v2.93h-2.95V20h-3.98V3.49zM70.77.56h4.4L78.9 20h-3.65l-.72-4.27h-3.07L70.72 20H67L70.77.56zm3.39 12.72l-1.18-7.82-1.15 7.82h2.33zM80.93.56h3.93V20h-3.93V.56zm6.89 0h2.76l4.32 10.1V.56h3.28V20h-2.66L91.2 9.25V20h-3.38V.56z"
             fill="#FCFCFC" /></svg>
-        <p class="footer__policy">Политика конфиденциальности</p>
+        <a class="footer__link" href="#">Политика конфиденциальности </a>
       </div>
     </div>
   </footer>

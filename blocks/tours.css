@@ -8,7 +8,7 @@
 }
 
 .tours {
-    background-image: url(../images/map-image.jpg);
+    background-image: url(../images/map-image.webp);
     background-repeat: no-repeat;
     background-position-x: 90%;
     background-position-y: 53%;
@@ -52,21 +52,21 @@
 .tours__title_direct {
     padding-top: 100px;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 14px;
     color: var(--white)
 }
 
 .tours__title_blog {
-    padding-top: 140px;
+    padding-top: 135px;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 72px;
     color: var(--dark)
 }
 
 .tours__title_feed {
-    padding-top: 72px;
+    padding-top: 75px;
     text-align: left;
-    padding-bottom: 29px;
+    padding-bottom: 28px;
     color: var(--white);
 }
 
